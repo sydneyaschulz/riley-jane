@@ -246,3 +246,18 @@ footer p {
         max-width: 320px;
     }
 }
+/* FIX RILEY JANE LOGO SIZE */
+
+.hero .hero-logo {
+    display: block;
+    width: 280px;
+    max-width: 80vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero .hero-title {
+    font-size: initial;
+    line-height: 1;
+    margin-bottom: 20px;
+}
