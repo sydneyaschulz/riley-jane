@@ -227,3 +227,22 @@ footer p {
         padding: 80px 6%;
     }
 }
+/* RILEY JANE HANDWRITTEN LOGO */
+
+.hero-logo {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+    .hero-logo {
+        max-width: 320px;
+    }
+}
