@@ -302,3 +302,33 @@ footer p {
         width: 85px;
     }
 }
+/* FIX NAVIGATION LOGO SIZE */
+
+.site-header .logo img.nav-logo {
+    display: block !important;
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+    max-height: 65px !important;
+    object-fit: contain !important;
+}
+
+.site-header .logo {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    flex-shrink: 0;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+/* KEEP THE LARGE HERO LOGO HIDDEN */
+
+.hero-logo {
+    display: none !important;
+}
