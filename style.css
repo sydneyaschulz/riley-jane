@@ -587,3 +587,28 @@ footer p {
     }
 }
 
+/* OFFICIAL RILEY JANE BIO */
+
+.about-content p:not(.about-label) {
+    font-size: 0.98rem;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: #333333;
+}
+
+.about-content em {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.about-content .button {
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .about-content p:not(.about-label) {
+        font-size: 0.95rem;
+        line-height: 1.75;
+    }
+}
+
